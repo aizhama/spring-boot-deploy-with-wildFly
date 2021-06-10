@@ -13,11 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>wildFlySpring</name>
 	<description>Projekt WildFlySpring</description>
+
+	<!--Extra PROPERTIES FOR WildFly-->
 	<properties>
 		<deploy.jboss.host>127.0.0.1</deploy.jboss.host>
 		<deploy.jboss.port>9990</deploy.jboss.port>
-		<deploy.jboss.username>jesper</deploy.jboss.username>
-		<deploy.jboss.password>jesper</deploy.jboss.password>
+		<deploy.jboss.username>USERNAME_FOR_WILDFLY</deploy.jboss.username>
+		<deploy.jboss.password>PASSWORD_FOR_WILDFLY</deploy.jboss.password>
 		<java.version>1.8</java.version>
 		<wildfly.maven.version>2.0.2.Final</wildfly.maven.version>
 		<maven.war.version>2.5</maven.war.version>
